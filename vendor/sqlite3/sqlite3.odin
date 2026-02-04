@@ -36,9 +36,9 @@ import "core:c"
 
 @(private)
 LIB :: (
-	     "../lib/sqlite3.lib"    when ODIN_OS == .Windows
-	else "../lib/libsqlite3.a"   when ODIN_OS == .Linux
-	else "../lib/libsqlite3.a"   when ODIN_OS == .Darwin
+	     "lib/sqlite3.lib"    when ODIN_OS == .Windows
+	else "lib/libsqlite3.a"   when ODIN_OS == .Linux
+	else "lib/libsqlite3.a"   when ODIN_OS == .Darwin
 	else ""
 )
 

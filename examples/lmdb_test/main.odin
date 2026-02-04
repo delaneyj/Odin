@@ -4,7 +4,7 @@ import "core:fmt"
 import "core:strings"
 import "core:path/filepath"
 import "core:os"
-import "vendor:lmdb/lmdb"
+import "vendor:lmdb"
 import "vendor:lmdb/kv"
 
 DB_PATH :: ".odin-cache/lmdb_test"

@@ -38,4 +38,4 @@ This produces `lib/liblmdb.a` (Unix) or `lib/lmdb.lib` (Windows).
 
 ## Bindings
 
-Bindings are generated with `odin-c-bindgen` and live in `lmdb/lmdb.odin`.
+Bindings are generated with `odin-c-bindgen` and live in `lmdb.odin`.

@@ -168,9 +168,9 @@ import "core:c"
 
 @(private)
 LIB :: (
-	     "../lib/lmdb.lib"     when ODIN_OS == .Windows
-	else "../lib/liblmdb.a"    when ODIN_OS == .Linux
-	else "../lib/liblmdb.a"    when ODIN_OS == .Darwin
+	     "lib/lmdb.lib"     when ODIN_OS == .Windows
+	else "lib/liblmdb.a"    when ODIN_OS == .Linux
+	else "lib/liblmdb.a"    when ODIN_OS == .Darwin
 	else ""
 )
 

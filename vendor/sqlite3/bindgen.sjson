@@ -2,8 +2,8 @@ inputs = [
 	"c/sqlite3.h"
 ]
 
-output_folder = "sqlite3"
-imports_file = "imports.odin"
+output_folder = "."
+imports_file = "imports.inc"
 package_name = "sqlite3"
 
 remove = [

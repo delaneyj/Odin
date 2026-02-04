@@ -4,7 +4,7 @@ import "core:fmt"
 import "core:strings"
 import "core:path/filepath"
 import "core:os"
-import "vendor:sqlite3/sqlite3"
+import "vendor:sqlite3"
 
 ensure_dir_all :: proc(path: string) -> (ok: bool) {
 	if len(path) == 0 {

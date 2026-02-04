@@ -42,4 +42,4 @@ This produces `lib/libsqlite3.a` (Unix) or `lib/sqlite3.lib` (Windows).
 
 ## Bindings
 
-Bindings are generated with `odin-c-bindgen` and live in `sqlite3/sqlite3.odin`.
+Bindings are generated with `odin-c-bindgen` and live in `sqlite3.odin`.

@@ -2,8 +2,8 @@ inputs = [
 	"c/lmdb.h"
 ]
 
-output_folder = "lmdb"
-imports_file = "imports.odin"
+output_folder = "."
+imports_file = "imports.inc"
 package_name = "lmdb"
 
 clang_include_paths = [

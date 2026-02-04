@@ -5,7 +5,7 @@ import "base:runtime"
 import cbor "core:encoding/cbor"
 import json "core:encoding/json"
 import "core:slice"
-import "vendor:lmdb/lmdb"
+import "vendor:lmdb"
 
 DB :: struct {
 	env: ^lmdb.MDB_env,
