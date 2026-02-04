@@ -28,6 +28,12 @@ Includes full bindings and Windows `.lib` and `.dll`.
 See also LICENSE in the `curl` directory itself.
 Includes full bindings and Windows `.lib`.
 
+## SQLite3
+
+[SQLite](https://www.sqlite.org) embedded SQL database engine.
+
+This vendor package uses the SQLite amalgamation and includes generated bindings.
+
 ## ENet
 
 [ENet](http://enet.bespin.org/) Reliable UDP networking library.
@@ -35,6 +41,12 @@ Includes full bindings and Windows `.lib`.
 `enet.lib` and `enet64.lib` are available under ENet's [MIT](http://enet.bespin.org/License.html) license.
 
 See also LICENSE in the `ENet` directory itself.
+
+## LMDB
+
+[LMDB](https://www.openldap.org/software/repo.html) embedded key-value store (from the OpenLDAP repository).
+
+See also LICENSE in the `lmdb` directory itself.
 
 ## fontstash (Port)
 

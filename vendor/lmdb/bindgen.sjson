@@ -1,0 +1,15 @@
+inputs = [
+	"c/lmdb.h"
+]
+
+output_folder = "lmdb"
+imports_file = "imports.odin"
+package_name = "lmdb"
+
+clang_include_paths = [
+	"c"
+]
+
+remove = [
+	"mdb_mode_t"
+]

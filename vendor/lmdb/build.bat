@@ -1,0 +1,14 @@
+@echo off
+setlocal
+cd /d %~dp0
+
+if not exist lib mkdir lib
+
+cl /nologo /O2 /c c\mdb.c /Fo:lib\mdb.obj
+if errorlevel 1 exit /b 1
+
+cl /nologo /O2 /c c\midl.c /Fo:lib\midl.obj
+if errorlevel 1 exit /b 1
+
+lib /nologo /OUT:lib\lmdb.lib lib\mdb.obj lib\midl.obj
+if errorlevel 1 exit /b 1
